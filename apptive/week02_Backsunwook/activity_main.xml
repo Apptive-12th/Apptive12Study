@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/kakao_Background1"
+    tools:context=".MainActivity">
+
+
+
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:text="카카오 계정 (이메일)"
+        android:textSize="20dp"
+        android:layout_above="@id/Text3"
+        android:layout_centerInParent="true"
+        android:id="@+id/Text1"/>
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:text= "비밀번호"
+        android:textSize="20dp"
+        android:id="@+id/Text3"
+        android:layout_above="@+id/Text4"
+        android:layout_centerInParent="true"
+
+        />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:text="잠금모드로 자동 로그인"
+        android:textSize="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:id="@+id/Text2"/>
+
+
+
+    <CheckBox
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@id/Text2"/>
+
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="#8b4513 "
+        android:text="로그인"
+        android:textSize="20dp"
+        android:id="@+id/Text4"
+        android:layout_above="@+id/Text2"
+        android:layout_centerInParent="true"
+        />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
