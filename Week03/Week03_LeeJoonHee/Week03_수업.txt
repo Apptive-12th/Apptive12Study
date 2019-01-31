@@ -1,0 +1,41 @@
+﻿LinearLayout
+->orientation =""
+
+view의 특성
+	-layout_width =""
+	-layout_height =""
+	- match_parent 와 wrap_content
+		-match_parent : 상위 개체에 크기가 맞춰짐
+		-wrap_content : 뷰의 최적의 크기로 맞춰줌
+	-padding과 margin
+		- Padding : 안여백
+		- Margin : 바깥여백 / 방향설정 가능	
+		- padding은 레이아웃 크기 변화X, Margin은 크기가 변화
+
+----------------------------------------------------------------------------------------- <-LayOut
+
+activity와 fragment
+	-Activity
+		Activity 생명주기
+			oncreate(시작할 때) -> onresume(화면이 다시 보일 때)-> onstop(화면이 보이지 않을 때)-> ondestroy(끝날 때)
+
+	-Fragment : Activity의 비용이 너무 커서 Activity대신 Fragment 사용
+		-name : fragment로 쓸 xml의 위치
+		-fragmentmanager가 fragment를 관리
+
+
+<id>
+	-xml에서 Id를 넣을 때 "@+id/   "
+	-java에서 불러올 때 "
+
+
+
+
+
+
+
+
+
+
+
+
