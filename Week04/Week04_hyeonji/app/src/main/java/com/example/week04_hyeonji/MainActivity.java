@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         news = (TextView)findViewById(R.id.news);
         game = (TextView)findViewById(R.id.game);
         etc = (TextView)findViewById(R.id.etc);
-        viewPager = (viewPager)findViewById(R.id.fragment_container)
+        viewPager = (ViewPager)findViewById(R.id.fragment_container);
 
         pagerViewAdapter = new PagerViewAdapter(getSupportFragmentManager());
 
@@ -180,4 +180,5 @@ public class MainActivity extends AppCompatActivity {
         }
 
     }
-}
+
+

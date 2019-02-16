@@ -40,5 +40,5 @@ public class PagerViewAdapter extends FragmentPagerAdapter {
     public int getCount() {
         return 5;
     }
-}
+
 }
