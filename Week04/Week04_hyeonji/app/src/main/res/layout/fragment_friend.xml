@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/kakao">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:text="  친구"
+            android:gravity="center_vertical"
+            android:textSize="35dp"
+            android:textColor="@color/kakaotext" />
+
+        <TextView
+            android:text="          김현지"
+            android:textSize="30dp"
+            android:textColor="@color/kakaotext"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_weight="2"/>
+        <TextView
+            android:text="  오늘 생일인 친구"
+            android:textSize="20dp"
+            android:textColor="@color/kakaotext"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:text="  즐겨찾기"
+            android:textSize="20dp"
+            android:textColor="@color/kakaotext"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_weight="1"/>
+        <TextView
+            android:text="  플러스친구"
+            android:textSize="20dp"
+            android:textColor="@color/kakaotext"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_weight="1"/>
+        <TextView
+            android:text="  친구목록"
+            android:textSize="20dp"
+            android:textColor="@color/kakaotext"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_weight="1"/>
+        <TextView
+            android:text="          ABC"
+            android:textSize="30dp"
+            android:textColor="@color/kakaotext"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_weight="1"/>
+        <TextView
+            android:text="          DEF"
+            android:textSize="30dp"
+            android:textColor="@color/kakaotext"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_weight="1"/>
+        <TextView
+            android:text="          APPLE"
+            android:textSize="30dp"
+            android:textColor="@color/kakaotext"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_weight="1"/>
+        <TextView
+            android:text="         "
+            android:textSize="30dp"
+            android:textColor="@color/kakaotext"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_weight="1"/>
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
