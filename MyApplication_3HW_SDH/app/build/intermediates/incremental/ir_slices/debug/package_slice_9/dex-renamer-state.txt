@@ -1,0 +1,4 @@
+#Tue Jan 29 21:10:13 KST 2019
+base.0=C\:\\android-myappl\\MyApplication_3HW_SDH\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\9
+path.0=classes.dex
+renamed.0=classes.dex
