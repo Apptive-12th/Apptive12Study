@@ -7,6 +7,7 @@ import android.support.v4.content.ContextCompat;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
@@ -14,10 +15,16 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import java.util.ArrayList;
+
+import javax.xml.namespace.NamespaceContext;
+
 public class MainActivity extends AppCompatActivity {
     TextView webtoon, best, play, my, setting;
     ViewPager viewPager;
     PagerViewAdapter pagerViewAdapter;
+    ArrayList<Pro> list = new ArrayList<Pro>();
+
 
     int[] IMAGES = {R.drawable.heart, R.drawable.world, R.drawable.cell, R.drawable.king, R.drawable.dream, R.drawable.hello,
             R.drawable.beautiful, R.drawable.onan, R.drawable.tomato, R.drawable.cartoon, R.drawable.coke, R.drawable.chat};
@@ -33,16 +40,18 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        ListView lv=findViewById(R.id.proro);
-        ProList flAdapter=new ProList();
 
+        list.add(new Pro(R.drawable.pro11));
+        list.add(new Pro(R.drawable.pro22));
+        list.add(new Pro(R.drawable.pro33));
+        list.add(new Pro(R.drawable.pro33));
+        list.add(new Pro(R.drawable.pro33));
+        ProList flAdapter=new ProList(list);
+
+
+        Log.d("헬로우",flAdapter.getCount()+"");
+        ListView lv=this.findViewById(R.id.proro);
         lv.setAdapter(flAdapter);
-
-        flAdapter.addpro(ContextCompat.getDrawable(this, R.drawable.pro11));
-        flAdapter.addpro(ContextCompat.getDrawable(this, R.drawable.pro22));
-        flAdapter.addpro(ContextCompat.getDrawable(this, R.drawable.pro33));
-        flAdapter.addpro(ContextCompat.getDrawable(this, R.drawable.pro44));
-        flAdapter.addpro(ContextCompat.getDrawable(this, R.drawable.pro55));
 
         ListView listView=(ListView)findViewById(R.id.listView);
 
@@ -121,7 +130,6 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    @RequiresApi(api = Build.VERSION_CODES.M)
     private void onChangeTab(int position){
 
       if (position == 0)
@@ -190,37 +198,42 @@ public class MainActivity extends AppCompatActivity {
         }
 
     }
+
+
+
+    class CustomAdapter extends BaseAdapter{
+
+        @Override
+        public int getCount() {
+            return IMAGES.length;
+        }
+
+        @Override
+        public Object getItem(int i) {
+            return null;
+        }
+
+        @Override
+        public long getItemId(int i) {
+            return 0;
+        }
+
+        @Override
+        public View getView(int i, View view, ViewGroup viewGroup) {
+            view = getLayoutInflater().inflate(R.layout.fragment_webtoon,null);
+
+            ImageView imageView=(ImageView)view.findViewById(R.id.imageView);
+            TextView textView_name =(TextView)view.findViewById(R.id.textView_name);
+            TextView textView_webtoony =(TextView)view.findViewById(R.id.textView3_webtoony);
+
+            imageView.setImageResource(IMAGES[i]);
+            textView_name.setText(NAMES[i]);
+            textView_webtoony.setText(WEBTOONY[i]);
+
+            return view;
+        }
+    }
+
+
 }
 
-class CustomAdapter extends BaseAdapter{
-
-    @Override
-    public int getCount() {
-        return IMAGES.length;
-    }
-
-    @Override
-    public Object getItem(int i) {
-        return null;
-    }
-
-    @Override
-    public long getItemId(int i) {
-        return 0;
-    }
-
-    @Override
-    public View getView(int i, View view, ViewGroup viewGroup) {
-        view = getLayoutInflater().inflate(R.layout.fragment_webtoon,null);
-
-        ImageView imageView=(ImageView)view.findViewById(R.id.imageView);
-        TextView textView_name =(TextView)view.findViewById(R.id.textView_name);
-        TextView textView_webtoony =(TextView)view.findViewById(R.id.textView3_webtoony);
-
-        imageView.setImageResource(IMAGES[i]);
-        textView_name.setText([i]);
-        textView_webtoony.setText([i]);
-
-        return view;
-    }
-}

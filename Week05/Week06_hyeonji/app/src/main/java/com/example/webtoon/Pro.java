@@ -4,13 +4,17 @@ import android.graphics.drawable.Drawable;
 
 public class Pro {
 
-    public Drawable getD() {
-        return d;
+    int d;
+
+    public Pro(int d) {
+        this.d = d;
     }
 
-    private Drawable d;
-
-    public void setD(Drawable d) {
+    public void setD(int d) {
         this.d = d;
+    }
+
+    public int getD() {
+        return d;
     }
 }

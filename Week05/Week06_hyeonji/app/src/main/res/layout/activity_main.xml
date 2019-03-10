@@ -33,9 +33,11 @@
     <ListView
         android:id="@+id/proro"
         android:layout_width="match_parent"
-        android:layout_height="170dp">
+        android:layout_height="170dp"
+        android:orientation="horizontal"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
 
-    </ListView>
 
 
     <include layout="@layout/tab_bar2"/>
