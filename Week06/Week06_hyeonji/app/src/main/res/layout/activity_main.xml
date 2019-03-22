@@ -47,7 +47,10 @@
         android:layout_height="match_parent"
         />
 
-    <include layout="@layout/fragment_webtoon"/>
+    <include
+        layout="@layout/fragment_webtoon"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
 
 
 </android.support.constraint.ConstraintLayout>

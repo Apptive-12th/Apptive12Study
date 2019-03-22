@@ -230,6 +230,7 @@ public class MainActivity extends AppCompatActivity {
             textView_name.setText(NAMES[i]);
             textView_webtoony.setText(WEBTOONY[i]);
 
+
             return view;
         }
     }
