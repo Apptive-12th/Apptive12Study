@@ -85,7 +85,8 @@ Insert (‘ 데이터’,’데이터2’,’데이터3’); <br>
 <br>
 <br>김씨 석차 
 <br>이씨
-<br>No SQL 
+<br> 
+### NoSQL
 <br>비관계형 데이터 베이스
 <br>SQL 을 쓰지 않고 하는데 쉬움
 <br>JSON 형식을 사용함.
