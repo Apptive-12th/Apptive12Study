@@ -1,0 +1,154 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/Mac/Desktop/Webtoon2/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/Mac/Desktop/Webtoon2/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/Mac/Desktop/Webtoon2/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/Mac/Desktop/Webtoon2/app/src/main/AndroidManifest.xml:2:1-21:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/Mac/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/176df203913809b6eaee38f09fdc7a8b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/Mac/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/fe732cac69a7d2581cb92d8c9fa601f9/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/Mac/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/f77f331a4245cc8f468bae01d8b8a2e2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/Mac/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/954c315e4d9804c8cd5e5961f5e246d8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/Mac/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/d6ead73c46c283792c0132f2149e0a37/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/Mac/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/205d96ae0e6a5fc206bb56eea5ba4fbc/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/Mac/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/a2a03fb7d95c33151600b9114cc12c4d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/Mac/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/26a5be4d30e1cc811209e722ed10857f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/Mac/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/7b6d1df66d7acb29f231393c89980ae3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/Mac/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/db43854ce1d9f4fb4789788c0a73d9de/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/Mac/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/4360c69579becaaba472b27d433f20ca/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/Mac/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/df2053d91fccd69249cc65b4ecb4fb27/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/Mac/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/4281087db8306a8bd179cc04920b19d1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/Mac/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/e50792984f7f8d0e005c5db2eadfe96d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/Mac/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/fb56b8732c8f7fd432631b1218179bbe/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/Mac/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/9245e123ea43973568faaba783fefa25/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/Mac/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/a589d1b2b5c4bf17f33057951ca1b079/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/Mac/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/9cfdc7bc46952ff2554bfe639d45f33a/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/Mac/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/94ab322884831d34c76e59a9faa76879/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/Mac/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/921634403eeab2ff804735f1d6ac02ed/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/Mac/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/110e3969b355a9420156f0af891cad71/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/Mac/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/261e693095db7ad1a151fdb1e6ac0c9f/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/Mac/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/c7865d534d69800f55decc1da85a22d1/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/Mac/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/01451f8433126cf86057429ce78da394/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/Mac/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/a16ba632c4e7be01c325f7c761ffcdc1/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/Mac/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/0d649a7f163ad5201de295740b21abd3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/Mac/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/1cc1ad3d88e9d6ccd3648b1bf128d215/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/Mac/Desktop/Webtoon2/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/Mac/Desktop/Webtoon2/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/Mac/Desktop/Webtoon2/app/src/main/AndroidManifest.xml:2:1-21:12
+	package
+		ADDED from /Users/Mac/Desktop/Webtoon2/app/src/main/AndroidManifest.xml:3:5-34
+		INJECTED from /Users/Mac/Desktop/Webtoon2/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Mac/Desktop/Webtoon2/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/Mac/Desktop/Webtoon2/app/src/main/AndroidManifest.xml
+		ADDED from /Users/Mac/Desktop/Webtoon2/app/src/main/AndroidManifest.xml:2:1-21:12
+		INJECTED from /Users/Mac/Desktop/Webtoon2/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/Mac/Desktop/Webtoon2/app/src/main/AndroidManifest.xml
+		ADDED from /Users/Mac/Desktop/Webtoon2/app/src/main/AndroidManifest.xml:2:1-21:12
+		INJECTED from /Users/Mac/Desktop/Webtoon2/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/Mac/Desktop/Webtoon2/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/Mac/Desktop/Webtoon2/app/src/main/AndroidManifest.xml:5:5-19:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/Mac/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/fe732cac69a7d2581cb92d8c9fa601f9/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/Mac/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/fe732cac69a7d2581cb92d8c9fa601f9/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] /Users/Mac/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/9245e123ea43973568faaba783fefa25/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/Mac/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/9245e123ea43973568faaba783fefa25/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/Mac/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/a589d1b2b5c4bf17f33057951ca1b079/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/Mac/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/a589d1b2b5c4bf17f33057951ca1b079/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/Mac/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/9245e123ea43973568faaba783fefa25/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /Users/Mac/Desktop/Webtoon2/app/src/main/AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from /Users/Mac/Desktop/Webtoon2/app/src/main/AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from /Users/Mac/Desktop/Webtoon2/app/src/main/AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from /Users/Mac/Desktop/Webtoon2/app/src/main/AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from /Users/Mac/Desktop/Webtoon2/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /Users/Mac/Desktop/Webtoon2/app/src/main/AndroidManifest.xml:11:9-40
+activity#com.example.webtoon.MainActivity
+ADDED from /Users/Mac/Desktop/Webtoon2/app/src/main/AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from /Users/Mac/Desktop/Webtoon2/app/src/main/AndroidManifest.xml:12:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/Mac/Desktop/Webtoon2/app/src/main/AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from /Users/Mac/Desktop/Webtoon2/app/src/main/AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from /Users/Mac/Desktop/Webtoon2/app/src/main/AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/Mac/Desktop/Webtoon2/app/src/main/AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from /Users/Mac/Desktop/Webtoon2/app/src/main/AndroidManifest.xml:16:27-74
+uses-sdk
+INJECTED from /Users/Mac/Desktop/Webtoon2/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/Mac/Desktop/Webtoon2/app/src/main/AndroidManifest.xml
+INJECTED from /Users/Mac/Desktop/Webtoon2/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/Mac/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/176df203913809b6eaee38f09fdc7a8b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/Mac/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/176df203913809b6eaee38f09fdc7a8b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/Mac/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/fe732cac69a7d2581cb92d8c9fa601f9/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/Mac/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/fe732cac69a7d2581cb92d8c9fa601f9/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/Mac/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/f77f331a4245cc8f468bae01d8b8a2e2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/Mac/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/f77f331a4245cc8f468bae01d8b8a2e2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/Mac/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/954c315e4d9804c8cd5e5961f5e246d8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/Mac/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/954c315e4d9804c8cd5e5961f5e246d8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/Mac/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/d6ead73c46c283792c0132f2149e0a37/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/Mac/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/d6ead73c46c283792c0132f2149e0a37/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/Mac/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/205d96ae0e6a5fc206bb56eea5ba4fbc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/Mac/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/205d96ae0e6a5fc206bb56eea5ba4fbc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/Mac/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/a2a03fb7d95c33151600b9114cc12c4d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/Mac/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/a2a03fb7d95c33151600b9114cc12c4d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/Mac/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/26a5be4d30e1cc811209e722ed10857f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/Mac/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/26a5be4d30e1cc811209e722ed10857f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/Mac/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/7b6d1df66d7acb29f231393c89980ae3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/Mac/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/7b6d1df66d7acb29f231393c89980ae3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/Mac/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/db43854ce1d9f4fb4789788c0a73d9de/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/Mac/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/db43854ce1d9f4fb4789788c0a73d9de/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/Mac/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/4360c69579becaaba472b27d433f20ca/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/Mac/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/4360c69579becaaba472b27d433f20ca/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/Mac/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/df2053d91fccd69249cc65b4ecb4fb27/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/Mac/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/df2053d91fccd69249cc65b4ecb4fb27/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/Mac/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/4281087db8306a8bd179cc04920b19d1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/Mac/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/4281087db8306a8bd179cc04920b19d1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/Mac/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/e50792984f7f8d0e005c5db2eadfe96d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/Mac/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/e50792984f7f8d0e005c5db2eadfe96d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/Mac/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/fb56b8732c8f7fd432631b1218179bbe/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/Mac/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/fb56b8732c8f7fd432631b1218179bbe/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/Mac/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/9245e123ea43973568faaba783fefa25/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/Mac/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/9245e123ea43973568faaba783fefa25/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/Mac/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/a589d1b2b5c4bf17f33057951ca1b079/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/Mac/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/a589d1b2b5c4bf17f33057951ca1b079/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/Mac/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/9cfdc7bc46952ff2554bfe639d45f33a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/Mac/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/9cfdc7bc46952ff2554bfe639d45f33a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/Mac/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/94ab322884831d34c76e59a9faa76879/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/Mac/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/94ab322884831d34c76e59a9faa76879/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/Mac/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/921634403eeab2ff804735f1d6ac02ed/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/Mac/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/921634403eeab2ff804735f1d6ac02ed/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/Mac/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/110e3969b355a9420156f0af891cad71/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/Mac/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/110e3969b355a9420156f0af891cad71/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/Mac/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/261e693095db7ad1a151fdb1e6ac0c9f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/Mac/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/261e693095db7ad1a151fdb1e6ac0c9f/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/Mac/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/c7865d534d69800f55decc1da85a22d1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/Mac/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/c7865d534d69800f55decc1da85a22d1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/Mac/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/01451f8433126cf86057429ce78da394/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/Mac/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/01451f8433126cf86057429ce78da394/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/Mac/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/a16ba632c4e7be01c325f7c761ffcdc1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/Mac/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/a16ba632c4e7be01c325f7c761ffcdc1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/Mac/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/0d649a7f163ad5201de295740b21abd3/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/Mac/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/0d649a7f163ad5201de295740b21abd3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/Mac/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/1cc1ad3d88e9d6ccd3648b1bf128d215/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/Mac/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/1cc1ad3d88e9d6ccd3648b1bf128d215/AndroidManifest.xml:20:5-44
+INJECTED from /Users/Mac/Desktop/Webtoon2/app/src/main/AndroidManifest.xml
+INJECTED from /Users/Mac/Desktop/Webtoon2/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/Mac/Desktop/Webtoon2/app/src/main/AndroidManifest.xml
+		ADDED from /Users/Mac/Desktop/Webtoon2/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Mac/Desktop/Webtoon2/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/Mac/Desktop/Webtoon2/app/src/main/AndroidManifest.xml
+		ADDED from /Users/Mac/Desktop/Webtoon2/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Mac/Desktop/Webtoon2/app/src/main/AndroidManifest.xml
